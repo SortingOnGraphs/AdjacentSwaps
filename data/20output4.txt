@@ -1,0 +1,88 @@
+************************************************
+Graph Network Topology: Ring Topology
+Number of Objects: 20
+Random Initial Source Permutation: Yes
+Source Permutation (Initial Assignment): 2 9 5 15 16 12 1 4 3 17 18 14 10 6 7 11 20 8 19 13 
+Target Permutation: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+
+Inversion number (for p_2^{-1}p_1, where p_1, p_2 denote source and target permutation, respectively): 68
+
+Upper bound (the diameter of modified bubble sort Cayley graph MBS_n for n=20) : 100 (i.e.,|_ n^2/4 _| for n=20).
+
+The minimum number of adjacent swaps needed is 68.
+<A permutation decomposition for the inverse of source permutation>
+7 1 9 8 3 14 15 18 2 13 16 6 20 12 4 5 10 11 19 17  = (3 4)(2 3)(1 2)(6 7)(5 6)(4 5)(3 4)(2 3)(7 8)(6 7)(5 6)(4 5)(5 6)(8 9)(7 8)(6 7)(5 6)(4 5)(12 13)(11 12)(10 11)(13 14)(12 13)(11 12)(10 11)(9 10)(8 9)(7 8)(10 11)(14 15)(13 14)(12 13)(11 12)(10 11)(9 10)(8 9)(10 11)(14 15)(15 16)(14 15)(13 14)(12 13)(11 12)(12 13)(14 15)(19 20)(18 19)(17 18)(16 17)(15 16)(14 15)(13 14)(14 15)(19 20)(1 20)(1 2)(2 3)(3 4)(4 5)(5 6)(6 7)(7 8)(19 20)(18 19)(17 18)(16 17)(15 16)(19 20)
+Source Permutation: 2 9 5 15 16 12 1 4 3 17 18 14 10 6 7 11 20 8 19 13 
+1. After swapping objects between vertex 3 and vertex 4 : 2 9 15 5 16 12 1 4 3 17 18 14 10 6 7 11 20 8 19 13 
+2. After swapping objects between vertex 2 and vertex 3 : 2 15 9 5 16 12 1 4 3 17 18 14 10 6 7 11 20 8 19 13 
+3. After swapping objects between vertex 1 and vertex 2 : 15 2 9 5 16 12 1 4 3 17 18 14 10 6 7 11 20 8 19 13 
+4. After swapping objects between vertex 6 and vertex 7 : 15 2 9 5 16 1 12 4 3 17 18 14 10 6 7 11 20 8 19 13 
+5. After swapping objects between vertex 5 and vertex 6 : 15 2 9 5 1 16 12 4 3 17 18 14 10 6 7 11 20 8 19 13 
+6. After swapping objects between vertex 4 and vertex 5 : 15 2 9 1 5 16 12 4 3 17 18 14 10 6 7 11 20 8 19 13 
+7. After swapping objects between vertex 3 and vertex 4 : 15 2 1 9 5 16 12 4 3 17 18 14 10 6 7 11 20 8 19 13 
+8. After swapping objects between vertex 2 and vertex 3 : 15 1 2 9 5 16 12 4 3 17 18 14 10 6 7 11 20 8 19 13 
+9. After swapping objects between vertex 7 and vertex 8 : 15 1 2 9 5 16 4 12 3 17 18 14 10 6 7 11 20 8 19 13 
+10. After swapping objects between vertex 6 and vertex 7 : 15 1 2 9 5 4 16 12 3 17 18 14 10 6 7 11 20 8 19 13 
+11. After swapping objects between vertex 5 and vertex 6 : 15 1 2 9 4 5 16 12 3 17 18 14 10 6 7 11 20 8 19 13 
+12. After swapping objects between vertex 4 and vertex 5 : 15 1 2 4 9 5 16 12 3 17 18 14 10 6 7 11 20 8 19 13 
+13. After swapping objects between vertex 5 and vertex 6 : 15 1 2 4 5 9 16 12 3 17 18 14 10 6 7 11 20 8 19 13 
+14. After swapping objects between vertex 8 and vertex 9 : 15 1 2 4 5 9 16 3 12 17 18 14 10 6 7 11 20 8 19 13 
+15. After swapping objects between vertex 7 and vertex 8 : 15 1 2 4 5 9 3 16 12 17 18 14 10 6 7 11 20 8 19 13 
+16. After swapping objects between vertex 6 and vertex 7 : 15 1 2 4 5 3 9 16 12 17 18 14 10 6 7 11 20 8 19 13 
+17. After swapping objects between vertex 5 and vertex 6 : 15 1 2 4 3 5 9 16 12 17 18 14 10 6 7 11 20 8 19 13 
+18. After swapping objects between vertex 4 and vertex 5 : 15 1 2 3 4 5 9 16 12 17 18 14 10 6 7 11 20 8 19 13 
+19. After swapping objects between vertex 12 and vertex 13 : 15 1 2 3 4 5 9 16 12 17 18 10 14 6 7 11 20 8 19 13 
+20. After swapping objects between vertex 11 and vertex 12 : 15 1 2 3 4 5 9 16 12 17 10 18 14 6 7 11 20 8 19 13 
+21. After swapping objects between vertex 10 and vertex 11 : 15 1 2 3 4 5 9 16 12 10 17 18 14 6 7 11 20 8 19 13 
+22. After swapping objects between vertex 13 and vertex 14 : 15 1 2 3 4 5 9 16 12 10 17 18 6 14 7 11 20 8 19 13 
+23. After swapping objects between vertex 12 and vertex 13 : 15 1 2 3 4 5 9 16 12 10 17 6 18 14 7 11 20 8 19 13 
+24. After swapping objects between vertex 11 and vertex 12 : 15 1 2 3 4 5 9 16 12 10 6 17 18 14 7 11 20 8 19 13 
+25. After swapping objects between vertex 10 and vertex 11 : 15 1 2 3 4 5 9 16 12 6 10 17 18 14 7 11 20 8 19 13 
+26. After swapping objects between vertex 9 and vertex 10 : 15 1 2 3 4 5 9 16 6 12 10 17 18 14 7 11 20 8 19 13 
+27. After swapping objects between vertex 8 and vertex 9 : 15 1 2 3 4 5 9 6 16 12 10 17 18 14 7 11 20 8 19 13 
+28. After swapping objects between vertex 7 and vertex 8 : 15 1 2 3 4 5 6 9 16 12 10 17 18 14 7 11 20 8 19 13 
+29. After swapping objects between vertex 10 and vertex 11 : 15 1 2 3 4 5 6 9 16 10 12 17 18 14 7 11 20 8 19 13 
+30. After swapping objects between vertex 14 and vertex 15 : 15 1 2 3 4 5 6 9 16 10 12 17 18 7 14 11 20 8 19 13 
+31. After swapping objects between vertex 13 and vertex 14 : 15 1 2 3 4 5 6 9 16 10 12 17 7 18 14 11 20 8 19 13 
+32. After swapping objects between vertex 12 and vertex 13 : 15 1 2 3 4 5 6 9 16 10 12 7 17 18 14 11 20 8 19 13 
+33. After swapping objects between vertex 11 and vertex 12 : 15 1 2 3 4 5 6 9 16 10 7 12 17 18 14 11 20 8 19 13 
+34. After swapping objects between vertex 10 and vertex 11 : 15 1 2 3 4 5 6 9 16 7 10 12 17 18 14 11 20 8 19 13 
+35. After swapping objects between vertex 9 and vertex 10 : 15 1 2 3 4 5 6 9 7 16 10 12 17 18 14 11 20 8 19 13 
+36. After swapping objects between vertex 8 and vertex 9 : 15 1 2 3 4 5 6 7 9 16 10 12 17 18 14 11 20 8 19 13 
+37. After swapping objects between vertex 10 and vertex 11 : 15 1 2 3 4 5 6 7 9 10 16 12 17 18 14 11 20 8 19 13 
+38. After swapping objects between vertex 14 and vertex 15 : 15 1 2 3 4 5 6 7 9 10 16 12 17 14 18 11 20 8 19 13 
+39. After swapping objects between vertex 15 and vertex 16 : 15 1 2 3 4 5 6 7 9 10 16 12 17 14 11 18 20 8 19 13 
+40. After swapping objects between vertex 14 and vertex 15 : 15 1 2 3 4 5 6 7 9 10 16 12 17 11 14 18 20 8 19 13 
+41. After swapping objects between vertex 13 and vertex 14 : 15 1 2 3 4 5 6 7 9 10 16 12 11 17 14 18 20 8 19 13 
+42. After swapping objects between vertex 12 and vertex 13 : 15 1 2 3 4 5 6 7 9 10 16 11 12 17 14 18 20 8 19 13 
+43. After swapping objects between vertex 11 and vertex 12 : 15 1 2 3 4 5 6 7 9 10 11 16 12 17 14 18 20 8 19 13 
+44. After swapping objects between vertex 12 and vertex 13 : 15 1 2 3 4 5 6 7 9 10 11 12 16 17 14 18 20 8 19 13 
+45. After swapping objects between vertex 14 and vertex 15 : 15 1 2 3 4 5 6 7 9 10 11 12 16 14 17 18 20 8 19 13 
+46. After swapping objects between vertex 19 and vertex 20 : 15 1 2 3 4 5 6 7 9 10 11 12 16 14 17 18 20 8 13 19 
+47. After swapping objects between vertex 18 and vertex 19 : 15 1 2 3 4 5 6 7 9 10 11 12 16 14 17 18 20 13 8 19 
+48. After swapping objects between vertex 17 and vertex 18 : 15 1 2 3 4 5 6 7 9 10 11 12 16 14 17 18 13 20 8 19 
+49. After swapping objects between vertex 16 and vertex 17 : 15 1 2 3 4 5 6 7 9 10 11 12 16 14 17 13 18 20 8 19 
+50. After swapping objects between vertex 15 and vertex 16 : 15 1 2 3 4 5 6 7 9 10 11 12 16 14 13 17 18 20 8 19 
+51. After swapping objects between vertex 14 and vertex 15 : 15 1 2 3 4 5 6 7 9 10 11 12 16 13 14 17 18 20 8 19 
+52. After swapping objects between vertex 13 and vertex 14 : 15 1 2 3 4 5 6 7 9 10 11 12 13 16 14 17 18 20 8 19 
+53. After swapping objects between vertex 14 and vertex 15 : 15 1 2 3 4 5 6 7 9 10 11 12 13 14 16 17 18 20 8 19 
+54. After swapping objects between vertex 19 and vertex 20 : 15 1 2 3 4 5 6 7 9 10 11 12 13 14 16 17 18 20 19 8 
+55. After swapping objects between vertex 1 and vertex 20 : 8 1 2 3 4 5 6 7 9 10 11 12 13 14 16 17 18 20 19 15 
+56. After swapping objects between vertex 1 and vertex 2 : 1 8 2 3 4 5 6 7 9 10 11 12 13 14 16 17 18 20 19 15 
+57. After swapping objects between vertex 2 and vertex 3 : 1 2 8 3 4 5 6 7 9 10 11 12 13 14 16 17 18 20 19 15 
+58. After swapping objects between vertex 3 and vertex 4 : 1 2 3 8 4 5 6 7 9 10 11 12 13 14 16 17 18 20 19 15 
+59. After swapping objects between vertex 4 and vertex 5 : 1 2 3 4 8 5 6 7 9 10 11 12 13 14 16 17 18 20 19 15 
+60. After swapping objects between vertex 5 and vertex 6 : 1 2 3 4 5 8 6 7 9 10 11 12 13 14 16 17 18 20 19 15 
+61. After swapping objects between vertex 6 and vertex 7 : 1 2 3 4 5 6 8 7 9 10 11 12 13 14 16 17 18 20 19 15 
+62. After swapping objects between vertex 7 and vertex 8 : 1 2 3 4 5 6 7 8 9 10 11 12 13 14 16 17 18 20 19 15 
+63. After swapping objects between vertex 19 and vertex 20 : 1 2 3 4 5 6 7 8 9 10 11 12 13 14 16 17 18 20 15 19 
+64. After swapping objects between vertex 18 and vertex 19 : 1 2 3 4 5 6 7 8 9 10 11 12 13 14 16 17 18 15 20 19 
+65. After swapping objects between vertex 17 and vertex 18 : 1 2 3 4 5 6 7 8 9 10 11 12 13 14 16 17 15 18 20 19 
+66. After swapping objects between vertex 16 and vertex 17 : 1 2 3 4 5 6 7 8 9 10 11 12 13 14 16 15 17 18 20 19 
+67. After swapping objects between vertex 15 and vertex 16 : 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 20 19 
+68. After swapping objects between vertex 19 and vertex 20 : 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+Target Permutation: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+Upper Bound: 100
+Reached the target permutation successfully (68 adjacent swaps).
+
+

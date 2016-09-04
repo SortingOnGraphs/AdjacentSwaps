@@ -1,0 +1,38 @@
+************************************************
+Graph Network Topology: Ring Topology
+Number of Objects: 10
+Random Initial Source Permutation: Yes
+Source Permutation (Initial Assignment): 3 7 6 8 4 2 10 1 9 5 
+Target Permutation: 1 2 3 4 5 6 7 8 9 10 
+
+Inversion number (for p_2^{-1}p_1, where p_1, p_2 denote source and target permutation, respectively): 18
+
+Upper bound (the diameter of modified bubble sort Cayley graph MBS_n for n=10) : 25 (i.e.,|_ n^2/4 _| for n=10).
+
+The minimum number of adjacent swaps needed is 18.
+<A permutation decomposition for the inverse of source permutation>
+8 6 1 5 10 3 2 4 9 7  = (1 2)(4 5)(5 6)(4 5)(3 4)(2 3)(4 5)(9 10)(8 9)(7 8)(6 7)(5 6)(9 10)(1 10)(9 10)(8 9)(7 8)(9 10)
+Source Permutation: 3 7 6 8 4 2 10 1 9 5 
+1. After swapping objects between vertex 1 and vertex 2 : 7 3 6 8 4 2 10 1 9 5 
+2. After swapping objects between vertex 4 and vertex 5 : 7 3 6 4 8 2 10 1 9 5 
+3. After swapping objects between vertex 5 and vertex 6 : 7 3 6 4 2 8 10 1 9 5 
+4. After swapping objects between vertex 4 and vertex 5 : 7 3 6 2 4 8 10 1 9 5 
+5. After swapping objects between vertex 3 and vertex 4 : 7 3 2 6 4 8 10 1 9 5 
+6. After swapping objects between vertex 2 and vertex 3 : 7 2 3 6 4 8 10 1 9 5 
+7. After swapping objects between vertex 4 and vertex 5 : 7 2 3 4 6 8 10 1 9 5 
+8. After swapping objects between vertex 9 and vertex 10 : 7 2 3 4 6 8 10 1 5 9 
+9. After swapping objects between vertex 8 and vertex 9 : 7 2 3 4 6 8 10 5 1 9 
+10. After swapping objects between vertex 7 and vertex 8 : 7 2 3 4 6 8 5 10 1 9 
+11. After swapping objects between vertex 6 and vertex 7 : 7 2 3 4 6 5 8 10 1 9 
+12. After swapping objects between vertex 5 and vertex 6 : 7 2 3 4 5 6 8 10 1 9 
+13. After swapping objects between vertex 9 and vertex 10 : 7 2 3 4 5 6 8 10 9 1 
+14. After swapping objects between vertex 1 and vertex 10 : 1 2 3 4 5 6 8 10 9 7 
+15. After swapping objects between vertex 9 and vertex 10 : 1 2 3 4 5 6 8 10 7 9 
+16. After swapping objects between vertex 8 and vertex 9 : 1 2 3 4 5 6 8 7 10 9 
+17. After swapping objects between vertex 7 and vertex 8 : 1 2 3 4 5 6 7 8 10 9 
+18. After swapping objects between vertex 9 and vertex 10 : 1 2 3 4 5 6 7 8 9 10 
+Target Permutation: 1 2 3 4 5 6 7 8 9 10 
+Upper Bound: 25
+Reached the target permutation successfully (18 adjacent swaps).
+
+

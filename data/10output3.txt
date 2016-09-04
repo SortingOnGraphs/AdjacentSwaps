@@ -1,0 +1,24 @@
+************************************************
+Graph Network Topology: Complete Topology
+Number of Objects: 10
+Random Initial Source Permutation: Yes
+Source Permutation (Initial Assignment): 9 6 3 1 7 5 8 10 2 4 
+Target Permutation: 1 2 3 4 5 6 7 8 9 10 
+
+Upper Bound (the diameter of complete transposition graph CT_n for n=10) : 9 (i.e.,n-1 for n=10).
+
+The minimum number of adjacent swaps needed is 8.
+<A permutation decomposition for the inverse of source permutation>
+4 9 3 10 6 2 5 7 1 8  = (1 9)(1 2)(1 6)(1 5)(1 7)(1 8)(1 10)(1 4)
+Source Permutation: 9 6 3 1 7 5 8 10 2 4 
+1. After swapping objects between vertex 1 and vertex 9 : 2 6 3 1 7 5 8 10 9 4 
+2. After swapping objects between vertex 1 and vertex 2 : 6 2 3 1 7 5 8 10 9 4 
+3. After swapping objects between vertex 1 and vertex 6 : 5 2 3 1 7 6 8 10 9 4 
+4. After swapping objects between vertex 1 and vertex 5 : 7 2 3 1 5 6 8 10 9 4 
+5. After swapping objects between vertex 1 and vertex 7 : 8 2 3 1 5 6 7 10 9 4 
+6. After swapping objects between vertex 1 and vertex 8 : 10 2 3 1 5 6 7 8 9 4 
+7. After swapping objects between vertex 1 and vertex 10 : 4 2 3 1 5 6 7 8 9 10 
+8. After swapping objects between vertex 1 and vertex 4 : 1 2 3 4 5 6 7 8 9 10 
+Target Permutation: 1 2 3 4 5 6 7 8 9 10 
+Upper Bound: 9
+Reached the target permutation successfully (8 adjacent swaps).

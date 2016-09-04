@@ -1,0 +1,32 @@
+###########################################################################
+# Choose your generator type:
+# Line: L, Star: S, Complete: C, Ring: R 
+#
+# L: {(i, i+1):1<= i< n}
+# S: {(1, i): 2<= i<= n}
+# C: {(i, j):1<= i<j<=n}
+# R: L U {(1, n)}
+###########################################################################
+
+GeneratorType	R	
+
+# Choose n for symmetric group S_n (n > 2) 
+
+NumberOfElements	50	
+
+#############################################################################
+# If you choose the "RandomPermutation" as "Y", 
+# then, the source permutation is generated 
+# randomly, according to the number of elements. Otherwise, choose "N".
+############################################################################# 
+
+RandomPermutation	Y	
+
+######### Caution !! #########################################################
+# If you choose "RandomPermutation" as "Y", then make sure the following lines
+# are commented out. Otherwise, remove the "#" comment and specify the
+# source permutations, according to the number of elements.
+##############################################################################
+
+
+#SourcePermutation	6 3 2 4 5 8 1 7	

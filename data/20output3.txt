@@ -1,0 +1,33 @@
+************************************************
+Graph Network Topology: Complete Topology
+Number of Objects: 20
+Random Initial Source Permutation: Yes
+Source Permutation (Initial Assignment): 18 1 5 4 2 12 16 8 14 3 10 20 7 17 19 13 11 9 6 15 
+Target Permutation: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+
+
+
+Upper Bound (the diameter of complete transposition graph CT_n for n=20) : 19 (i.e.,n-1 for n=20).
+
+The minimum number of adjacent swaps needed is 15.
+<A permutation decomposition for the inverse of source permutation>
+2 5 10 4 3 19 13 8 18 11 17 6 16 9 20 7 14 1 15 12  = (1 18)(1 9)(1 14)(1 17)(1 11)(1 10)(1 3)(1 5)(1 2)(6 12)(6 20)(6 15)(6 19)(7 16)(7 13)
+Source Permutation: 18 1 5 4 2 12 16 8 14 3 10 20 7 17 19 13 11 9 6 15 
+1. After swapping objects between vertex 1 and vertex 18 : 9 1 5 4 2 12 16 8 14 3 10 20 7 17 19 13 11 18 6 15 
+2. After swapping objects between vertex 1 and vertex 9 : 14 1 5 4 2 12 16 8 9 3 10 20 7 17 19 13 11 18 6 15 
+3. After swapping objects between vertex 1 and vertex 14 : 17 1 5 4 2 12 16 8 9 3 10 20 7 14 19 13 11 18 6 15 
+4. After swapping objects between vertex 1 and vertex 17 : 11 1 5 4 2 12 16 8 9 3 10 20 7 14 19 13 17 18 6 15 
+5. After swapping objects between vertex 1 and vertex 11 : 10 1 5 4 2 12 16 8 9 3 11 20 7 14 19 13 17 18 6 15 
+6. After swapping objects between vertex 1 and vertex 10 : 3 1 5 4 2 12 16 8 9 10 11 20 7 14 19 13 17 18 6 15 
+7. After swapping objects between vertex 1 and vertex 3 : 5 1 3 4 2 12 16 8 9 10 11 20 7 14 19 13 17 18 6 15 
+8. After swapping objects between vertex 1 and vertex 5 : 2 1 3 4 5 12 16 8 9 10 11 20 7 14 19 13 17 18 6 15 
+9. After swapping objects between vertex 1 and vertex 2 : 1 2 3 4 5 12 16 8 9 10 11 20 7 14 19 13 17 18 6 15 
+10. After swapping objects between vertex 6 and vertex 12 : 1 2 3 4 5 20 16 8 9 10 11 12 7 14 19 13 17 18 6 15 
+11. After swapping objects between vertex 6 and vertex 20 : 1 2 3 4 5 15 16 8 9 10 11 12 7 14 19 13 17 18 6 20 
+12. After swapping objects between vertex 6 and vertex 15 : 1 2 3 4 5 19 16 8 9 10 11 12 7 14 15 13 17 18 6 20 
+13. After swapping objects between vertex 6 and vertex 19 : 1 2 3 4 5 6 16 8 9 10 11 12 7 14 15 13 17 18 19 20 
+14. After swapping objects between vertex 7 and vertex 16 : 1 2 3 4 5 6 13 8 9 10 11 12 7 14 15 16 17 18 19 20 
+15. After swapping objects between vertex 7 and vertex 13 : 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+Target Permutation: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+Upper Bound: 19
+Reached the target permutation successfully (15 adjacent swaps).
