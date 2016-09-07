@@ -41,9 +41,7 @@ The version 1.0 of AdjacentSwaps was tested both using gcc 4.1.2 running under a
 
 \[1\] Dohan Kim, "Task swapping networks in distributed systems", International Journal of Computer Mathematics, vol. 90, no. 11, pp. 2221-2243, 2013.
 
-\[2\] Dohan Kim, "Sorting on graphs by adjacent swaps using permutation groups".
-
-\* Note: The status of paper \[2\] is currently under minor revision in Computer Science Review. The status of paper \[2\] will be updated later.
+\[2\] Dohan Kim, "Sorting on graphs by adjacent swaps using permutation groups", Computer Science Review, in press.
 
 [1]: http://en.wikipedia.org/wiki/GNU_General_Public_License
 [2]: https://github.com/SortingOnGraphs/AdjacentSwaps
